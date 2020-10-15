@@ -1,0 +1,115 @@
+
+body {
+	background:#EBEBEB;
+	color:#621B00;
+	font-size: 17px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Nunito', serif;
+	font-weight: 700;
+}
+
+h1 {
+	color:#aa4a30;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size:30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color:#aa4a30;
+	font-size: 20px;
+	font-weight:900;
+}
+p {
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-weight: lighter;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	font-family: 'Nunito', serif;
+	color: #c87941;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+
+/* custom design with class */
+
+.container {
+	width: 750px;
+	/**margin:40px;**/
+	margin: auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-blue {
+	color: #F19953;
+	padding: 15px 20px;
+	border-radius: 4px;
+	display: inline;
+	padding-left: 0px;
+}
+
+.btn-blue:hover {
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i: hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 25px;
+	font-family: 'Nunito' , serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/**
